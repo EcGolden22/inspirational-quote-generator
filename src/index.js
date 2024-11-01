@@ -4,7 +4,7 @@ function generateQuote(event) {
   new Typewriter("#quote", {
     strings: "It's five o'clock somewhere",
     autoStart: true,
-    delay: 1,
+    delay: 50,
     cursor: "",
   });
 }
