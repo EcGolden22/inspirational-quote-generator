@@ -24,15 +24,24 @@ a {
   color: #ef7e56;
 }
 
-form {
-  padding: 30px;
+.form-container {
+  padding: 15px 20px;
   background-color: #feffdf;
-  border-radius: 8px;
-  display: flex;
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
   margin-bottom: 30px;
+  border-radius: 8px;
+}
+form {
+  display: flex;
 }
 
+.hint {
+  line-height: 1.5px;
+  font-size: 12px;
+  margin-top: 8px;
+  opacity: 0.6;
+  margin-left: 5px;
+}
 .theme {
   padding: 12px;
   border: 1px solid grey;
@@ -68,4 +77,8 @@ footer {
   font-size: 12px;
   margin-top: 30px;
   text-align: center;
+}
+
+.hidden {
+  display: none;
 }

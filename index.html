@@ -15,19 +15,22 @@
       </header>
 
       <main>
-        <form id="quote-form">
-          <input
-            type="text"
-            placeholder="chose a theme for your quote"
-            autofocus
-            required
-            autocomplete="off"
-            class="theme"
-            id="user-theme-selection"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
-        <div class="quote" id="quote"></div>
+        <div class="form-container">
+          <form id="quote-form">
+            <input
+              type="text"
+              placeholder="chose a theme for your quote"
+              autofocus
+              required
+              autocomplete="off"
+              class="theme"
+              id="user-theme-selection"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="hint">ex. Love, Life, Friendship</div>
+        </div>
+        <div class="quote hidden" id="quote"></div>
       </main>
 
       <footer>

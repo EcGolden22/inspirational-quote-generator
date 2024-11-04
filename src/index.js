@@ -20,6 +20,9 @@ function generateQuote(event) {
     "You are a master at sharing inspirational quotes. Please generate a short inspirational quote. Use the user input at a guideline for the theme.";
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
+  let quoteElement = document.querySelector("#quote");
+  quoteElement.classList.remove("hidden");
+  quoteElement.innerHTML = `Creating your personalized inspirational quote about ${userInput}`;
   console.log("generating quote");
   console.log(`prmopt: ${prompt}`);
   console.log(`context: ${context}`);
